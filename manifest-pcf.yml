@@ -1,0 +1,7 @@
+---
+applications:
+- name: demo-sso-tmaki
+  memory: 512M
+  path: target/demo-sso-0.0.1-SNAPSHOT.jar
+  services:
+    - sso
